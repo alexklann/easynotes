@@ -1,6 +1,10 @@
-# Easy Notes
-A web-based scratch pad and single-page note taking app.  
-Easily take notes and hold onto ideas within seconds.
+<p align="center">
+    <img src="https://github.com/alexklann/easynotes/blob/main/public/logo_wide.png?raw=true" width="640"/>
+</p>
+<p align="center">
+    A web-based scratch pad and single-page note taking app.</br>
+    Easily take notes and hold onto ideas within seconds.
+</p>
 
 ## Development
 
