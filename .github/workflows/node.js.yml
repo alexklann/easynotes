@@ -24,11 +24,21 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+
+    - name: Cache Node.js versions
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/node
+        key: node-${{ runner.os }}-${{ matrix.node-version }}
+        restore-keys: |
+          node-${{ runner.os }}
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
