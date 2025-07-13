@@ -2,7 +2,11 @@
     <img src="https://github.com/alexklann/easynotes/blob/main/public/logo_wide.png?raw=true" width="640"/>
 </p>
 <p align="center">
-    [![Node.js CI](https://github.com/alexklann/easynotes/actions/workflows/node.js.yml/badge.svg)](https://github.com/alexklann/easynotes/actions/workflows/node.js.yml)
+  <a href="https://github.com/alexklann/easynotes/actions/workflows/node.js.yml">
+    <img src="https://github.com/alexklann/easynotes/actions/workflows/node.js.yml/badge.svg" alt="Node.js CI"/>
+  </a>
+</p>
+<p align="center">
     A web-based scratch pad and single-page note taking app.</br>
     Easily take notes and hold onto ideas within seconds.
 </p>
