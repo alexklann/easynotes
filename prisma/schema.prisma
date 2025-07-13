@@ -15,4 +15,12 @@ model User {
   user_role String
   user_name String @unique
   user_password String
+  notes Note[]
+}
+
+model Note {
+  note_id Int @id @unique @default(autoincrement())
+  note_lines String
+  note_author User @relation(fields: [note_author_id], references: [user_id])
+  note_author_id Int
 }
